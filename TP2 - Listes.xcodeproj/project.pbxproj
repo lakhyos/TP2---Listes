@@ -25,9 +25,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B9518426187F138F00EE5DAF /* liste.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = liste.h; sourceTree = "<group>"; };
 		B984D9EC185898BF00D21C4B /* TP2 - Listes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "TP2 - Listes"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B984D9EF185898BF00D21C4B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		B984D9F1185898BF00D21C4B /* TP2___Listes.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "TP2___Listes.1"; sourceTree = "<group>"; };
+		B984D9F8185898E600D21C4B /* dliste.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dliste.h; sourceTree = "<group>"; };
+		B984D9F9185898E600D21C4B /* file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file.h; sourceTree = "<group>"; };
+		B984D9FA185898E600D21C4B /* pile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pile.h; sourceTree = "<group>"; };
+		B984D9FB185898E600D21C4B /* tableau.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tableau.h; sourceTree = "<group>"; };
+		B984D9FC185898E600D21C4B /* tfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tfile.h; sourceTree = "<group>"; };
+		B984D9FD185898E600D21C4B /* tliste.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tliste.h; sourceTree = "<group>"; };
+		B984D9FE185898E600D21C4B /* tpile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tpile.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,14 @@
 			isa = PBXGroup;
 			children = (
 				B984D9EF185898BF00D21C4B /* main.c */,
+				B9518426187F138F00EE5DAF /* liste.h */,
+				B984D9FA185898E600D21C4B /* pile.h */,
+				B984D9F9185898E600D21C4B /* file.h */,
+				B984D9FD185898E600D21C4B /* tliste.h */,
+				B984D9FE185898E600D21C4B /* tpile.h */,
+				B984D9FC185898E600D21C4B /* tfile.h */,
+				B984D9FB185898E600D21C4B /* tableau.h */,
+				B984D9F8185898E600D21C4B /* dliste.h */,
 				B984D9F1185898BF00D21C4B /* TP2___Listes.1 */,
 			);
 			path = "TP2 - Listes";
@@ -225,6 +241,7 @@
 				B984D9F7185898BF00D21C4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

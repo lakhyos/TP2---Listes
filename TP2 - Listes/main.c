@@ -7,12 +7,19 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h>
+#include "pile.h"
 
-int main(int argc, const char * argv[])
+int main()
 {
-
-    // insert code here...
-    printf("Hello, World!\n");
+    Pile *pile = NULL;
+    printf("\n-----------------------\n");
+    printf("taille pile = %d", pile_taille(pile));
+    printf("\n-----------------------\n");
+    remplissage_pile(pile);
+    printf("\n-----------------------\n");
+    affichage_pile(pile);
+    printf("\n-----------------------\n");
     return 0;
 }
 
