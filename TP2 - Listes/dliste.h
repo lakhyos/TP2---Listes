@@ -10,8 +10,8 @@
  */
 struct DlisteElement
 {
-    DlisteElement *suivant;
-    DlisteElement *precedent;
+    struct DlisteElement *suivant;
+    struct DlisteElement *precedent;
     int valeur;
 };
 typedef struct DlisteElement DlisteElement;
